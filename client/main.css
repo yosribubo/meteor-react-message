@@ -1,0 +1,63 @@
+
+.login-form {
+  max-width: 444px;
+}
+
+.login-form .login-title {
+  text-align: center;
+}
+
+.login-form .btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.media .media-body {
+  word-break: break-all;
+}
+
+.media .media-body p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.banner {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.banner p {
+  font-size: 22px;
+}
+
+.form {
+  margin-bottom: 10px;
+}
+
+.form .form-item {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    .login-form {
+        max-width: 444px;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .login-form {
+        max-width: 90%;
+    }
+    .form .form-item button {
+      width: 100%;
+    }
+  }
