@@ -18,6 +18,7 @@ const SignInPage = () => {
         Meteor.loginWithPassword(userEmail, userPwd, async err => {
             if (err) return console.log('Login error:', err)
             // TODO: go to messagelist
+            alert('Login Ok');
             console.log('Login Ok')
             return window.location.href='/messagelist'
         })
